@@ -1,0 +1,18 @@
+.flexbox{
+  display: flex;
+  align-items: center;
+  &-center{
+    justify-content: center;
+  }
+  &-around{
+    justify-content: space-around;
+  }
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+.wrap-reverse{
+  flex-wrap: wrap-reverse;
+}
