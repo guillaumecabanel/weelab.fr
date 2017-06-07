@@ -1,12 +1,19 @@
-ul#testimonials{
-  list-style: none;
+#testimonials{
   position: absolute;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   bottom: $margin-bottom;
-  right: 5%;
-  width: 50%;
-  max-width: 500px;
+  right: 0;
+  width: 60%;
+  max-width: 600px;
+}
+
+#slides{
+  list-style: none;
+  padding: 0;
+}
+.hidden{
+  display:none;
 }
 
 .testimonial{
