@@ -1,0 +1,47 @@
+ul#testimonials{
+  list-style: none;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 10%;
+  bottom: $margin-bottom;
+  width: 50%;
+  max-width: 500px;
+}
+
+.testimonial{
+  position: relative;
+  background-color: #fafafa;
+  border-radius: 4px;
+  padding: 10px;
+  flex: 1 0 auto;
+  &-navigation{
+    flex: 0 0 10%;
+  }
+  &-description{
+    color: #424242;
+    text-align: justify;
+  }
+  &-author{
+    padding-top: 10px;
+  }
+}
+
+.author{
+  &-name{
+    font-weight: bold;
+  }
+  &-position{
+    font-size: 0.8em;
+    color: #323232;
+  }
+  &-picture{
+    position: absolute;
+    right: 10px;
+    bottom: -20px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid #fafafa;
+    box-shadow: 0 0 2px #121212;
+  }
+}

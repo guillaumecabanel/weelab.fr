@@ -3,12 +3,25 @@
     h2.flexbox.flexbox-around
       div = t 'catchline'
       = image_tag 'icons/template.svg', width: '30%'
-
+    
     #go-to-typeform
       .flexbox.flexbox-around
         = image_tag 'icons/chat.svg', width: '15%'
         = t :call_to_action
+
+  ul#testimonials
+    = image_tag 'icons/chevron-left.svg', class: 'testimonial-navigation'
+    li.testimonial
+      .testimonial-description Un savoir faire tech associé à un entrain communicatif. Travailler avec Guillaume c'est s'assurer une conduite et une exécution projet rigoureuse dans un cadre détendu et toujours positif.
+      .testimonial-author
+        .author-name Pierre Facq
+        .author-position
+          | Driver @ Le Wagon Nantes
+
+      = image_tag 'pictures/pierre_facq.jpg', class: 'author-picture'
   
+    = image_tag 'icons/chevron-right.svg', class: 'testimonial-navigation'
+        
   / // Drawings
   #lighthouse = image_tag('icons/lighthouse.svg')
   / #park       = image_tag('icons/park.svg')
