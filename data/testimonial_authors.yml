@@ -1,0 +1,13 @@
+# - name:
+#   position:
+#   picture:
+#   testimonial:
+- name: Pierre Facq
+  position: Driver @ Le Wagon Nantes
+  picture: pierre_facq.jpg
+  testimonial: Un savoir faire tech associé à un entrain communicatif. Travailler avec Guillaume c'est s'assurer une conduite et une exécution projet rigoureuse dans un cadre détendu et toujours positif.
+
+- name: Sarah Jammernegg
+  position: Consultante & Facilitatrice
+  picture: sarah.jpg
+  testimonial: "Guillaume est doté d'atouts très complémentaires : des compétences techniques pointues sur des sujets variés, une très bonne approche pédagogique, sans oublier d'avoir une vision stratégique de ses sujets tout en étant capable d'initiatives. C'est également quelqu'un à l'écoute des autres, curieux et très ouvert d'esprit. Nous organisons ensemble des événements sur lesquels il fait preuve de créativité et d'un grand sens de l'organisation - le tout sans stress ! C'est un réel plaisir de travailler avec lui :-)"
