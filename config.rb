@@ -47,4 +47,6 @@ configure :build do
   activate :minify_javascript
 end
 
-activate :deploy
+activate :deploy do
+  puts `mgd`
+end
