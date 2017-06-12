@@ -6,4 +6,4 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 
 gem 'slim'
-gem 'middleman-deploy', '~> 1.0'
+gem 'mgd'
