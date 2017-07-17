@@ -7,6 +7,8 @@ end
 
 activate :i18n, mount_at_root: :fr, templates_dir: "views"
 
+activate :livereload
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 

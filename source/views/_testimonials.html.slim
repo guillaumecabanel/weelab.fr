@@ -1,0 +1,10 @@
+#testimonials
+  .flexbox.flexbox-bottom.flexbox-around.wrap
+    - data.testimonial_authors.each_with_index do |author, index|
+      .testimonial
+        .testimonial-description = author.testimonial
+        .testimonial-author
+          .author-name = author.name
+          .author-position = author.position
+
+        = image_tag "pictures/#{author.picture}", class: 'author-picture'
