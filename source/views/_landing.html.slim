@@ -1,33 +1,25 @@
 #landing
+  / // Drawings
+  #lighthouse = image_tag('icons/lighthouse.svg')
+  / #park       = image_tag('icons/park.svg')
+  
   #catchline
     h2.flexbox.flexbox-around
       div = t 'catchline'
       = image_tag 'icons/template.svg', width: '30%'
     
     #go-to-typeform
-      a.flexbox.flexbox-around
+      a.flexbox.flexbox-around.typeform-share href="https://guillaume77.typeform.com/to/CSEjyZ" data-mode="popup" target="_blank"
         = image_tag 'icons/chat.svg', width: '15%'
         = t :call_to_action
-        
-     a.typeform-share.button href="https://guillaume77.typeform.com/to/CSEjyZ" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#267DDD;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank"
-      | Launch me
-      script
-        (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
 
   #testimonials
-    = image_tag 'icons/chevron-left.svg', class: 'testimonial-navigation slide-previous slides-navigation'
-    ul#slides
+    .flexbox.flexbox-bottom.flexbox-around.wrap
       - data.testimonial_authors.each_with_index do |author, index|
-        li class="testimonial #{index == 0 ? 'active' : 'hidden'}"
+        .testimonial
           .testimonial-description = author.testimonial
           .testimonial-author
             .author-name = author.name
             .author-position = author.position
 
           = image_tag "pictures/#{author.picture}", class: 'author-picture'
-    = image_tag 'icons/chevron-right.svg', class: 'testimonial-navigation slide-next slides-navigation'
-
-        
-  / // Drawings
-  #lighthouse = image_tag('icons/lighthouse.svg')
-  / #park       = image_tag('icons/park.svg')

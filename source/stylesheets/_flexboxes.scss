@@ -7,6 +7,9 @@
   &-around{
     justify-content: space-around;
   }
+  &-bottom{
+    align-items: flex-end;
+  }
 }
 
 .wrap{

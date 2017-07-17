@@ -1,19 +1,5 @@
 #testimonials{
-  position: absolute;
-  display: flex;
-  align-items: flex-end;
-  bottom: $margin-bottom;
-  right: 0;
-  width: 60%;
-  max-width: 600px;
-}
-
-#slides{
-  list-style: none;
-  padding: 0;
-}
-.hidden{
-  display:none;
+  margin-top: 50px;
 }
 
 .testimonial{
@@ -21,11 +7,10 @@
   background-color: #fafafa;
   border-radius: 4px;
   padding: 10px;
-  margin-top: 30px;
-  flex: 1 0 auto;
-  &-navigation{
-    flex: 0 0 10%;
-  }
+  margin:10px;
+  margin-bottom: 30px;
+  width: 400px;
+
   &-description{
     color: #424242;
     text-align: justify;
