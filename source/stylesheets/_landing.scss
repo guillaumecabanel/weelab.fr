@@ -1,11 +1,5 @@
-body{
-  background-color: $blue;
-}
-
-$margin-bottom: 2%;
-
 #landing{
-  height: 100vh;
+  min-height: 100vh;
   margin: 0 15%;
 }
 
@@ -17,18 +11,11 @@ $margin-bottom: 2%;
   max-width: 200px;
 }
 
-#park{
-  position: absolute;
-  right: 5%;
-  bottom: $margin-bottom;
-  width: 10%;
-}
-
 #catchline{
   font-size: 2em;
   color: #fafafa;
   text-shadow: 1px 1px 1px #6a6a6a;
-  padding-top: 70px;
+  padding-top: 10px;
 }
 
 #go-to-typeform{
