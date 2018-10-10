@@ -28,7 +28,7 @@ GEM
     execjs (2.7.0)
     fast_blank (1.0.0)
     fastimage (2.1.0)
-    ffi (1.9.18)
+    ffi (1.9.25)
     haml (5.0.1)
       temple (>= 0.8.0)
       tilt
@@ -119,13 +119,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ffi (~> 1.9.24)
   mgd
   middleman (~> 4.2)
   middleman-autoprefixer (~> 2.7)
   middleman-livereload
   slim
-  tzinfo-data
-  wdm (~> 0.1)
 
 BUNDLED WITH
    1.16.6
